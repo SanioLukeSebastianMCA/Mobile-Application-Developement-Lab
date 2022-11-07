@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group>
+
+        <item
+            android:id="@+id/homemenu_search"
+            android:title="Search Page"
+            android:icon="@drawable/ic_search"
+            app:showAsAction="always"
+            app:iconTint="@color/white"/>
+
+        <item
+            android:id="@+id/homemenu_add"
+            android:title="New Page"
+            android:icon="@drawable/ic_add_circle"
+            app:showAsAction="ifRoom"
+            app:iconTint="@color/white"/>
+
+        <item
+            android:id="@+id/homemenu_edit"
+            android:title="Edit Page"
+            android:icon="@drawable/ic_baseline_edit_24"
+            app:showAsAction="ifRoom"
+            app:iconTint="@color/white"/>
+
+        <item
+            android:id="@+id/homemenu_display"
+            android:title="Display Pages"
+            android:icon="@drawable/ic_baseline_preview_24"
+            app:showAsAction="ifRoom"
+            app:iconTint="@color/white"/>
+
+        <item
+            android:id="@+id/homemenu_delete"
+            android:title="Delete Page"
+            android:icon="@drawable/ic_delete"
+            app:showAsAction="ifRoom"
+            app:iconTint="@color/white"/>
+
+    </group>
+
+    <group>
+        <item
+            android:id="@+id/homemenu_upload"
+            android:title="Upload to account"
+            android:icon="@drawable/ic_upload"
+            app:showAsAction="ifRoom"
+            app:iconTint="@color/white"/>
+
+        <item
+            android:id="@+id/homemenu_login"
+            android:title="Login"
+            android:icon="@drawable/ic_login"
+            app:showAsAction="ifRoom"
+            app:iconTint="@color/white"/>
+
+    </group>
+</menu>
